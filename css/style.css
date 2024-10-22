@@ -57,6 +57,7 @@ Jaune : #ffc107
 /* STYLES DES SECTIONS  */
 
 .dark {
+  background-image:
     /* Image de fond : zelda-bg_pattern_brown.png */
 }
 
@@ -172,3 +173,16 @@ left: -24px;
         transform: translateY(-50%) scaleX(-1);
 right: -24px;
 }
+
+nav {
+  font-family: Libre Baskerville;
+  background-color:#dbc8a8;
+  img {
+  width : 15% 
+
+  }
+padding: 1%;
+
+}
+
+
