@@ -56,57 +56,74 @@ Jaune : #ffc107
 
 /* STYLES DES SECTIONS  */
 
-.dark {
-  background-image: url(../img/zelda-bg_pattern_brown.png);
+.sectiondark {
   color:white;
-  height: 100vh;
+  background-image: url(../img/zelda-bg_pattern_brown.png);
+  display: flex;
+
     /* Image de fond : zelda-bg_pattern_brown.png */
 }
 
+.topsectiondark {
 
-.light {
+  
+  height: 100vh;
+ 
 
+}
 
+.botsectiondark {
+
+ 
   
 }
 
+.light {
 
+background-image: url(../img/zelda-bg_pattern_white.png) ;  ^
 
+}
 
 .light img {
 
   width: 50%;
   height: auto;
-  display: flex;
-  justify-content: center
-
-  background-image: url(../img/zelda-bg_pattern_white.png) 
+  
 
 }
 
-
-.img-section2 img {
-
-width: 20%;
-height: auto;
-
+.imgsectionlight {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 25%;
+  
 }
+
 
 .img-section2 {
-
+width: 50%;
+height: auto;
 display: flex;
-justify-content: center;
 
 }
+
+
 
 
     /* Image de fond : zelda-bg_pattern_white.png */
-}
 
-.section-4 {
+.section4 {
+  background-image: url(../img/zelda-bg_pattern_brown.png);
+  color:white;
+  }
 
+  .section4 img {
+    height: 700px;
+    width: auto;
+  
 
-
+    }
 
 
 }
